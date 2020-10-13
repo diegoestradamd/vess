@@ -9,7 +9,7 @@ class HealthCareUser(AbstractUser):
         DOCTOR = ('DOCTOR', 'Doctor')
         LABORATORY = ('LABORATORY', 'Laboratory')
         IMAGING = ('IMAGING', 'imaging')
-        NURSE = ('NURSE', 'nurse')
+        NURSE = ('NURSE', 'Nurse')
 
     id = models.PositiveIntegerField(primary_key=True)
     username = models.CharField(max_length=32, unique=True)
